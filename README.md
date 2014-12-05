@@ -1,14 +1,20 @@
 Android DisplayingBitmaps Sample
 ===================================
 
-This is a sample application for the Android Training class
-&quot;Displaying Bitmaps Efficiently&quot;
-(http://developer.android.com/training/displaying-bitmaps/).
+Sample demonstrating how to load large bitmaps efficiently off the main UI thread,
+caching bitmaps (both in memory and on disk), managing bitmap memory and displaying
+bitmaps in UI elements such as ViewPager and ListView/GridView.
 
+Introduction
+------------
+
+This is a sample application for the Android Training class [Displaying Bitmaps Efficiently][1].
 
 It demonstrates how to load large bitmaps efficiently off the main UI thread, caching
 bitmaps (both in memory and on disk), managing bitmap memory and displaying bitmaps
 in UI elements such as ViewPager and ListView/GridView.
+
+[1]: http://developer.android.com/training/displaying-bitmaps/
 
 Pre-requisites
 --------------
@@ -16,6 +22,11 @@ Pre-requisites
 - Android SDK v21
 - Android Build Tools v21.1.1
 - Android Support Repository
+
+Screenshots
+-------------
+
+<img src="screenshots/1-gridview.png" height="400" alt="Screenshot"/> <img src="screenshots/2-detail.png" height="400" alt="Screenshot"/> 
 
 Getting Started
 ---------------

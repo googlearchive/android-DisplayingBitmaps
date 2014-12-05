@@ -5,8 +5,17 @@
 ---
 status:       PUBLISHED
 technologies: [Android]
-categories:   [UI]
+categories:   [UI, Background, Views]
 languages:    [Java]
 solutions:    [Mobile]
 github:       android-DisplayingBitmaps
+level:        ADVANCED
+icon:         screenshots/icon-web.png
+apiRefs:
+    - android:android.widget.ImageView
+    - android:android.widget.GridView
+    - android:android.graphics.BitmapFactory
+    - android:android.os.AsyncTask
+    - android:android.util.LruCache
+    - android:android.support.v4.view.ViewPager
 license: apache2
