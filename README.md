@@ -1,3 +1,4 @@
+
 Android DisplayingBitmaps Sample
 ===================================
 
