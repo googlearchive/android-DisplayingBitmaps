@@ -106,15 +106,15 @@ public class ImageCache {
             FragmentManager fragmentManager, ImageCacheParams cacheParams) {
 
         // Search for, or create an instance of the non-UI RetainFragment
-        final RetainFragment mRetainFragment = findOrCreateRetainFragment(fragmentManager);
+        final RetainFragment retainFragment = findOrCreateRetainFragment(fragmentManager);
 
         // See if we already have an ImageCache stored in RetainFragment
-        ImageCache imageCache = (ImageCache) mRetainFragment.getObject();
+        ImageCache imageCache = (ImageCache) retainFragment.getObject();
 
         // No existing ImageCache, create one and store it in RetainFragment
         if (imageCache == null) {
             imageCache = new ImageCache(cacheParams);
-            mRetainFragment.setObject(imageCache);
+            retainFragment.setObject(imageCache);
         }
 
         return imageCache;
